@@ -1,0 +1,61 @@
+id: kTjtLj9JykmjeoR6aJYR9Q
+projectId: U63L-hbodUm_A0NAm6j2LQ
+projectName: SITE ORANGE
+created: 2021-12-14T15:15:07.3483125Z
+protocol: 1
+tests:
+- id: BxmUHRF1RUSqAMczxZGdUA
+  name: TESTE 2
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-12-14T15:15:07.0000000
+  modificationDate: 2021-12-14T15:15:07.0000000
+  settings:
+    automationAssistant: true
+    appId: 7GxnrP3XbEWpSofpupHU9g
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: 7GxnrP3XbEWpSofpupHU9g
+    name: Login incial Orange
+    url: https://opensource-demo.orangehrmlive.com
+    platform: Web
+  steps:
+  - id: fVugx4lagkqvyX79ML6knw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://opensource-demo.orangehrmlive.com
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
