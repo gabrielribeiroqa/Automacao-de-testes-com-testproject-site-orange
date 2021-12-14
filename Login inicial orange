@@ -1,0 +1,224 @@
+id: sO_1VQ4y5UiH4DeEBxa2gg
+projectId: U63L-hbodUm_A0NAm6j2LQ
+projectName: SITE ORANGE
+created: 2021-12-14T13:49:16.9154917Z
+protocol: 1
+tests:
+- id: SJ5PK9Ejj0ySUbbBGXwlxg
+  name: Login inicial orange
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-12-09T12:10:37.0000000
+  modificationDate: 2021-12-09T12:11:26.0000000
+  settings:
+    automationAssistant: true
+    appId: 7GxnrP3XbEWpSofpupHU9g
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: 7GxnrP3XbEWpSofpupHU9g
+    name: Login incial Orange
+    url: https://opensource-demo.orangehrmlive.com
+    platform: Web
+  steps:
+  - id: Mu3NrR23BUe1CjndwvNi3w
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zZ4HRVTQYUmZMl3FKqBvwQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: RXk-0oq70UqBPqv6M-fFUQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9caQWLlRZk2sMvhcNph1QQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: RXk-0oq70UqBPqv6M-fFUQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Admin
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: e145WsAVDUqb_mhlXFJgXg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: izymeaGa9Ey4F2dAbkCeiA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zdtKWtpEA0-L3jTNGgnwUw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: izymeaGa9Ey4F2dAbkCeiA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: admin123
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6r4SQ-Zsq0O9Ug7Y1HGw5g
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: qPIVFJWynEOda1mA09Q_fw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://opensource-demo.orangehrmlive.com
+    type: Input
+auxTests: []
+elements:
+- id: RXk-0oq70UqBPqv6M-fFUQ
+  name: txtUsername
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txtUsername'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='txtUsername']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[2]/input
+    priority: 3
+- id: izymeaGa9Ey4F2dAbkCeiA
+  name: txtPassword
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txtPassword'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='txtPassword']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[3]/input
+    priority: 3
+- id: qPIVFJWynEOda1mA09Q_fw
+  name: Submit
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btnLogin'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Submit']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[5]/input
+    priority: 3
+projectParameters: []
+addons: []
